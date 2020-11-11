@@ -1,0 +1,238 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+margin:0;
+padding: 0;
+font-family: 'Roboto',sans-serif;
+font-size:16px;
+font-weight: 300;
+background:#DDD;
+list-style:none;
+
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+    position: relative;
+    margin: 5% auto;
+    width: 900px;
+    height: 500px;
+    background: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #383838;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    font-family: 'Playfair Display', 'serif';
+    color:#fff;
+  }
+.top,.mid,.bottom{
+  position: relative;
+  z-index: 2;
+}
+.top{align-self: center;
+  position: absolute;
+  top:0;
+  margin: 5% auto;
+  padding: 10px;
+  color: #FFF;
+  font-weight:100;
+}
+.mid{
+  text-align: center;
+  margin: 100px auto 0px;
+  padding:10px 0px;
+}
+.ques,.ans{
+  margin:50px auto;
+  font-size: 25px;
+}
+.bottom{
+  color:#fff;
+}
+.bottom li{
+  display: inline-block;
+  color:#fff;
+  padding: 10px;
+
+}
+a{
+  color:#fff;
+}
+.fill{position: absolute;
+  top: 0px;
+  left :600px;
+}
+.right{
+    background:#fff;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        box-sizing: border-box;
+        padding: 30px;
+        width: 300px;
+        height: 500px;
+        background: url('https://goo.gl/YbktSj');
+        background-size: cover;
+        background-position: center;
+        border-radius: 0 2px 2px 0;
+}
+li{
+  list-style:none;
+}
+.btn--form {
+  margin-top: 5px;
+  display: block;
+  padding: .5rem 2.5rem;
+  font-size: .95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  background: #111;
+  border-radius: 35px;
+  }
+  .btn--form:hover,.btn--form:focus{
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+  }
+  .signup__link {
+    font-size: .8rem;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #999;
+    display: block;
+    padding: 10px;
+    margin-left: -40px;
+    margin-top:20px;
+  }
+  .signup__link:hover,.signup__link:focus {
+    opacity: 0.8;
+    transition: 0.1s ease;
+  }
+.social{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        box-sizing: border-box;
+        padding: 40px;
+        width: 300px;
+        height: 500px;
+        background: url('https://goo.gl/YbktSj');
+        background-size: cover;
+        background-position: center;
+        border-radius: 0 2px 2px 0;
+}
+.social .fa{
+  padding-right: 20px;
+}
+.social.loginwith {
+    display: block;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #FFF;
+    text-align: center;
+}
+button.social-signin {
+    margin-bottom: 20px;
+    width: 220px;
+    height: 36px;
+    border: none;
+    border-radius: 10px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.2s ease;}
+
+button.social-signin:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.2s ease;
+  }
+  
+  button.social-signin.facebook {
+    background: #32508E;
+  }
+  
+  button.social-signin.twitter {
+    background: #55ACEE;
+  }
+  
+  button.social-signin.google {
+    background: #DD4B39;
+  }
+input[type="text"],
+input[type="password"],input[type="email"] {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    padding-top:10px;
+    padding-bottom: 0px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12.5px;
+    transition: 0.2s ease;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid #16a085;
+  color: #16a085;
+  transition: 0.2s ease;
+}
+.fa,.fas,.far {
+    font-size: 10px;}
+.or {
+    position: absolute;
+    top: 180px;
+    left: -20px;
+    width: 40px;
+    height: 40px;
+    background: #DDD;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    line-height: 40px;
+    text-align: center;
+  }
+span{
+  font-weight: bold;
+    display: block;
+    margin-bottom: 75px;
+    padding: 10px;
+    font-size: 30px;
+}
